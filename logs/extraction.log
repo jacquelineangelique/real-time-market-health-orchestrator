@@ -1,0 +1,38 @@
+2026-05-26 17:32:20,856 | INFO | Market data extraction started.
+2026-05-26 17:32:20,856 | INFO | Starting Frankfurter extraction.
+2026-05-26 17:32:20,856 | INFO | Request attempt 1: https://api.frankfurter.dev/v2/rates?from=2026-04-26&to=2026-05-26&base=USD&quotes=EUR,GBP
+2026-05-26 17:32:20,963 | INFO | Request successful.
+2026-05-26 17:32:20,966 | INFO | Raw JSON saved: data\raw\frankfurter_rates_20260526T223220Z.json
+2026-05-26 17:32:20,966 | INFO | Frankfurter extraction completed.
+2026-05-26 17:32:20,966 | INFO | Starting CoinGecko BTC extraction.
+2026-05-26 17:32:20,966 | INFO | Request attempt 1: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1777242740&to=1779834740&x_cg_demo_api_key=CG-EQ2wSPvYfZgdWoHcZUKJ5HeK
+2026-05-26 17:32:21,128 | INFO | Request successful.
+2026-05-26 17:32:21,139 | INFO | Raw JSON saved: data\raw\coingecko_btc_20260526T223221Z.json
+2026-05-26 17:32:21,139 | INFO | CoinGecko BTC extraction completed.
+2026-05-26 17:32:21,139 | INFO | Market data extraction completed successfully.
+2026-05-26 18:26:55,877 | INFO | Pipeline execution started.
+2026-05-26 18:26:55,877 | INFO | Starting extraction workflow.
+2026-05-26 18:26:55,878 | INFO | Market data extraction started.
+2026-05-26 18:26:55,878 | INFO | Starting Frankfurter extraction.
+2026-05-26 18:26:55,878 | INFO | Request attempt 1: https://api.frankfurter.dev/v2/rates?from=2026-04-26&to=2026-05-26&base=USD&quotes=EUR,GBP
+2026-05-26 18:26:55,967 | INFO | Request successful.
+2026-05-26 18:26:55,969 | INFO | Raw JSON saved: data\raw\frankfurter_rates_20260526T232655Z.json
+2026-05-26 18:26:55,969 | INFO | Frankfurter extraction completed.
+2026-05-26 18:26:55,969 | INFO | Starting CoinGecko BTC extraction.
+2026-05-26 18:26:55,969 | INFO | Request attempt 1: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1777246015&to=1779838015&x_cg_demo_api_key=CG-EQ2wSPvYfZgdWoHcZUKJ5HeK
+2026-05-26 18:26:56,155 | INFO | Request successful.
+2026-05-26 18:26:56,167 | INFO | Raw JSON saved: data\raw\coingecko_btc_20260526T232656Z.json
+2026-05-26 18:26:56,167 | INFO | CoinGecko BTC extraction completed.
+2026-05-26 18:26:56,167 | INFO | Market data extraction completed successfully.
+2026-05-26 18:26:56,168 | INFO | Extraction workflow completed.
+2026-05-26 18:26:56,168 | INFO | Starting transformation workflow.
+2026-05-26 18:26:56,168 | INFO | Transformation workflow started.
+2026-05-26 18:26:56,169 | INFO | Latest raw file selected: data\raw\frankfurter_rates_20260526T232655Z.json
+2026-05-26 18:26:56,169 | INFO | Latest raw file selected: data\raw\coingecko_btc_20260526T232656Z.json
+2026-05-26 18:26:56,212 | INFO | Frankfurter rows transformed: 62
+2026-05-26 18:26:56,269 | INFO | CoinGecko BTC daily rows transformed: 30
+2026-05-26 18:26:56,285 | INFO | Transformation validation checks passed.
+2026-05-26 18:26:56,290 | INFO | Processed CSV exported: data\processed\market_health_timeseries.csv
+2026-05-26 18:26:56,290 | INFO | Transformation workflow completed successfully.
+2026-05-26 18:26:56,301 | INFO | Transformation workflow completed.
+2026-05-26 18:26:56,301 | INFO | Pipeline execution completed successfully in 0.42 seconds.
