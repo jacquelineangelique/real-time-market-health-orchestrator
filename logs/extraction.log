@@ -36,3 +36,74 @@
 2026-05-26 18:26:56,290 | INFO | Transformation workflow completed successfully.
 2026-05-26 18:26:56,301 | INFO | Transformation workflow completed.
 2026-05-26 18:26:56,301 | INFO | Pipeline execution completed successfully in 0.42 seconds.
+2026-05-27 01:42:20,317 | INFO | Pipeline execution started.
+2026-05-27 01:42:20,317 | INFO | Starting extraction workflow.
+2026-05-27 01:42:20,317 | INFO | Market data extraction started.
+2026-05-27 01:42:20,317 | INFO | Starting Frankfurter extraction.
+2026-05-27 01:42:20,318 | INFO | Request attempt 1: https://api.frankfurter.dev/v2/rates?from=2026-04-27&to=2026-05-27&base=USD&quotes=EUR,GBP
+2026-05-27 01:42:21,128 | INFO | Request successful.
+2026-05-27 01:42:21,131 | INFO | Raw JSON saved: data\raw\frankfurter_rates_20260527T064221Z.json
+2026-05-27 01:42:21,131 | INFO | Frankfurter extraction completed.
+2026-05-27 01:42:21,131 | INFO | Starting CoinGecko BTC extraction.
+2026-05-27 01:42:21,131 | INFO | Request attempt 1: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1777272139&to=1779864139&x_cg_demo_api_key=CG-EQ2wSPvYfZgdWoHcZUKJ5HeK
+2026-05-27 01:42:21,290 | INFO | Request successful.
+2026-05-27 01:42:21,303 | INFO | Raw JSON saved: data\raw\coingecko_btc_20260527T064221Z.json
+2026-05-27 01:42:21,303 | INFO | CoinGecko BTC extraction completed.
+2026-05-27 01:42:21,303 | INFO | Market data extraction completed successfully.
+2026-05-27 01:42:21,303 | INFO | Extraction workflow completed.
+2026-05-27 01:42:21,304 | INFO | Starting transformation workflow.
+2026-05-27 01:42:21,304 | INFO | Transformation workflow started.
+2026-05-27 01:42:21,305 | INFO | Latest raw file selected: data\raw\frankfurter_rates_20260527T064221Z.json
+2026-05-27 01:42:21,305 | INFO | Latest raw file selected: data\raw\coingecko_btc_20260527T064221Z.json
+2026-05-27 01:42:21,348 | INFO | Frankfurter rows transformed: 62
+2026-05-27 01:42:21,397 | INFO | CoinGecko BTC daily rows transformed: 31
+2026-05-27 01:42:21,410 | INFO | Transformation validation checks passed.
+2026-05-27 01:42:21,413 | INFO | Processed CSV exported: data\processed\market_health_timeseries.csv
+2026-05-27 01:42:21,413 | INFO | Transformation workflow completed successfully.
+2026-05-27 01:42:21,426 | INFO | Transformation workflow completed.
+2026-05-27 01:42:21,426 | INFO | Starting star schema workflow.
+2026-05-27 01:42:21,456 | ERROR | Pipeline execution failed: [Errno 13] Permission denied: 'data\\tableau\\fact_market_rates.csv'
+Traceback (most recent call last):
+  File "c:\Users\jaq\Documents\github\real-time-market-health-orchestrator\src\run_pipeline.py", line 93, in run_pipeline
+    build_star_schema()
+  File "c:\Users\jaq\Documents\github\real-time-market-health-orchestrator\src\build_star_schema.py", line 176, in build_star_schema
+    fact_market_rates.to_csv(
+  File "C:\Users\jaq\Documents\github\real-time-market-health-orchestrator\.venv\lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\jaq\Documents\github\real-time-market-health-orchestrator\.venv\lib\site-packages\pandas\core\generic.py", line 3989, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "C:\Users\jaq\Documents\github\real-time-market-health-orchestrator\.venv\lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "C:\Users\jaq\Documents\github\real-time-market-health-orchestrator\.venv\lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+  File "C:\Users\jaq\Documents\github\real-time-market-health-orchestrator\.venv\lib\site-packages\pandas\io\common.py", line 873, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'data\\tableau\\fact_market_rates.csv'
+2026-05-27 01:45:27,380 | INFO | Pipeline execution started.
+2026-05-27 01:45:27,380 | INFO | Starting extraction workflow.
+2026-05-27 01:45:27,380 | INFO | Market data extraction started.
+2026-05-27 01:45:27,381 | INFO | Starting Frankfurter extraction.
+2026-05-27 01:45:27,381 | INFO | Request attempt 1: https://api.frankfurter.dev/v2/rates?from=2026-04-27&to=2026-05-27&base=USD&quotes=EUR,GBP
+2026-05-27 01:45:28,145 | INFO | Request successful.
+2026-05-27 01:45:28,147 | INFO | Raw JSON saved: data\raw\frankfurter_rates_20260527T064528Z.json
+2026-05-27 01:45:28,148 | INFO | Frankfurter extraction completed.
+2026-05-27 01:45:28,148 | INFO | Starting CoinGecko BTC extraction.
+2026-05-27 01:45:28,148 | INFO | Request attempt 1: https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=1777272326&to=1779864326&x_cg_demo_api_key=CG-EQ2wSPvYfZgdWoHcZUKJ5HeK
+2026-05-27 01:45:28,347 | INFO | Request successful.
+2026-05-27 01:45:28,358 | INFO | Raw JSON saved: data\raw\coingecko_btc_20260527T064528Z.json
+2026-05-27 01:45:28,358 | INFO | CoinGecko BTC extraction completed.
+2026-05-27 01:45:28,358 | INFO | Market data extraction completed successfully.
+2026-05-27 01:45:28,359 | INFO | Extraction workflow completed.
+2026-05-27 01:45:28,359 | INFO | Starting transformation workflow.
+2026-05-27 01:45:28,359 | INFO | Transformation workflow started.
+2026-05-27 01:45:28,359 | INFO | Latest raw file selected: data\raw\frankfurter_rates_20260527T064528Z.json
+2026-05-27 01:45:28,360 | INFO | Latest raw file selected: data\raw\coingecko_btc_20260527T064528Z.json
+2026-05-27 01:45:28,400 | INFO | Frankfurter rows transformed: 62
+2026-05-27 01:45:28,447 | INFO | CoinGecko BTC daily rows transformed: 31
+2026-05-27 01:45:28,454 | INFO | Transformation validation checks passed.
+2026-05-27 01:45:28,456 | INFO | Processed CSV exported: data\processed\market_health_timeseries.csv
+2026-05-27 01:45:28,456 | INFO | Transformation workflow completed successfully.
+2026-05-27 01:45:28,472 | INFO | Transformation workflow completed.
+2026-05-27 01:45:28,472 | INFO | Starting star schema workflow.
+2026-05-27 01:45:28,505 | INFO | Star schema workflow completed.
+2026-05-27 01:45:28,505 | INFO | Pipeline execution completed successfully in 1.13 seconds.
