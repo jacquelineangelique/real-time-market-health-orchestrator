@@ -1,0 +1,8 @@
+2026-05-26 17:53:59,136 | INFO | Transformation workflow started.
+2026-05-26 17:53:59,138 | INFO | Latest raw file selected: data\raw\frankfurter_rates_20260526T223220Z.json
+2026-05-26 17:53:59,139 | INFO | Latest raw file selected: data\raw\coingecko_btc_20260526T223221Z.json
+2026-05-26 17:53:59,180 | INFO | Frankfurter rows transformed: 62
+2026-05-26 17:53:59,245 | INFO | CoinGecko BTC daily rows transformed: 31
+2026-05-26 17:53:59,262 | INFO | Transformation validation checks passed.
+2026-05-26 17:53:59,265 | INFO | Processed CSV exported: data\processed\market_health_timeseries.csv
+2026-05-26 17:53:59,266 | INFO | Transformation workflow completed successfully.
