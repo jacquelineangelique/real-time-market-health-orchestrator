@@ -36,6 +36,7 @@ jobs:
         run: |
           python -m py_compile src/extract_market_data.py
           python -m py_compile src/transform_market_data.py
+          python -m py_compile src/run_pipeline.py
 
       - name: Run Basic Import Validation
         run: |
