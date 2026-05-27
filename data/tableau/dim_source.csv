@@ -1,0 +1,3 @@
+source_key,source_api,source_type,source_url
+1,CoinGecko,Crypto Market API,https://api.coingecko.com/api/v3
+2,Frankfurter,Foreign Exchange API,https://api.frankfurter.dev/v2/rates
