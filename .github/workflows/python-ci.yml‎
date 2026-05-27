@@ -32,11 +32,16 @@ jobs:
             pip install -r requirements.txt
           fi
 
-      - name: Verify Repository Structure
+      - name: Validate Python Syntax
         run: |
-          test -d src
-          test -d data
-          test -d logs
+          python -m py_compile src/extract_market_data.py
 
-      - name: CI Bootstrap Complete
-        run: echo "Initial CI validation successful"
+      - name: Run Basic Import Validation
+        run: |
+          python -c "import pandas"
+          python -c "import requests"
+
+      - name: Lint Check
+        run: |
+          pip install flake8
+          flake8 src --max-line-length=120
