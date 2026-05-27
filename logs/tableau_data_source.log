@@ -1,0 +1,8 @@
+2026-05-26 23:12:04,382 | INFO | Tableau data source preparation started.
+2026-05-26 23:12:04,382 | INFO | Loading processed dataset: data\processed\market_health_timeseries.csv
+2026-05-26 23:12:04,394 | INFO | Analytical schema verification passed.
+2026-05-26 23:12:04,394 | INFO | Standardizing Tableau data types.
+2026-05-26 23:12:04,400 | INFO | Applying dataset formatting cleanup.
+2026-05-26 23:12:04,414 | INFO | Processed CSV export validation passed.
+2026-05-26 23:12:04,418 | INFO | Tableau-ready dataset exported: data\tableau\tableau_market_health_dataset.csv
+2026-05-26 23:12:04,418 | INFO | Tableau data source preparation completed.
