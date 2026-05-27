@@ -28,6 +28,15 @@ def build_star_schema():
         .reset_index(drop=True)
     )
 
+# -------------------------------------------------
+# Sequential Day Number
+# -------------------------------------------------
+# Creates a visualization-friendly ordering field
+# for Tableau such as:
+# 1, 2, 3, ..., 30
+# -------------------------------------------------
+
+    dim_date["day_sequence"] = range(1, len(dim_date) + 1)
     dim_date["date_key"] = dim_date["date"].dt.strftime("%Y%m%d").astype(int)
     dim_date["full_date"] = dim_date["date"].dt.date
     dim_date["year"] = dim_date["date"].dt.year
@@ -41,6 +50,7 @@ def build_star_schema():
     dim_date = dim_date[
         [
             "date_key",
+            "day_sequence",
             "full_date",
             "year",
             "month",
