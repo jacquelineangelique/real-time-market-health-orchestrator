@@ -17,7 +17,7 @@ from pathlib import Path
 
 from extract_market_data import main as run_extraction
 from transform_market_data import run_transformation
-
+from build_star_schema import build_star_schema
 
 # =====================================================
 # Logging Setup
@@ -82,9 +82,21 @@ def run_pipeline():
 
         logging.info("Transformation workflow completed.")
         print("Transformation workflow completed.")
+        
+        # -------------------------------------------------
+        # Step 3: Build Star Schema
+        # -------------------------------------------------
+        
+        logging.info("Starting star schema workflow.")
+        print("Starting star schema workflow...")
+
+        build_star_schema()
+
+        logging.info("Star schema workflow completed.")
+        print("Star schema workflow completed.")
 
         # -------------------------------------------------
-        # Step 3: Completion Logging
+        # Step 4: Completion Logging
         # -------------------------------------------------
 
         pipeline_end_time = datetime.utcnow()
