@@ -35,6 +35,7 @@ jobs:
       - name: Validate Python Syntax
         run: |
           python -m py_compile src/extract_market_data.py
+          python -m py_compile src/transform_market_data.py
 
       - name: Run Basic Import Validation
         run: |
