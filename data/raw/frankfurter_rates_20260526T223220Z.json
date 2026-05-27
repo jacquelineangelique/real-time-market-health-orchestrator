@@ -1,0 +1,374 @@
+[
+    {
+        "date": "2026-04-26",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85432
+    },
+    {
+        "date": "2026-04-26",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74134
+    },
+    {
+        "date": "2026-04-27",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85222
+    },
+    {
+        "date": "2026-04-27",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73881
+    },
+    {
+        "date": "2026-04-28",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85352
+    },
+    {
+        "date": "2026-04-28",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73977
+    },
+    {
+        "date": "2026-04-29",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85431
+    },
+    {
+        "date": "2026-04-29",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74058
+    },
+    {
+        "date": "2026-04-30",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85439
+    },
+    {
+        "date": "2026-04-30",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74041
+    },
+    {
+        "date": "2026-05-01",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85433
+    },
+    {
+        "date": "2026-05-01",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73966
+    },
+    {
+        "date": "2026-05-02",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85417
+    },
+    {
+        "date": "2026-05-02",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73942
+    },
+    {
+        "date": "2026-05-03",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85412
+    },
+    {
+        "date": "2026-05-03",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73929
+    },
+    {
+        "date": "2026-05-04",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85301
+    },
+    {
+        "date": "2026-05-04",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73783
+    },
+    {
+        "date": "2026-05-05",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85411
+    },
+    {
+        "date": "2026-05-05",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.7385
+    },
+    {
+        "date": "2026-05-06",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85213
+    },
+    {
+        "date": "2026-05-06",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73603
+    },
+    {
+        "date": "2026-05-07",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.84991
+    },
+    {
+        "date": "2026-05-07",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73461
+    },
+    {
+        "date": "2026-05-08",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.84987
+    },
+    {
+        "date": "2026-05-08",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73491
+    },
+    {
+        "date": "2026-05-09",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.8498
+    },
+    {
+        "date": "2026-05-09",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73487
+    },
+    {
+        "date": "2026-05-10",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.84978
+    },
+    {
+        "date": "2026-05-10",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73487
+    },
+    {
+        "date": "2026-05-11",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.84945
+    },
+    {
+        "date": "2026-05-11",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73527
+    },
+    {
+        "date": "2026-05-12",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85042
+    },
+    {
+        "date": "2026-05-12",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73709
+    },
+    {
+        "date": "2026-05-13",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85235
+    },
+    {
+        "date": "2026-05-13",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73864
+    },
+    {
+        "date": "2026-05-14",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85378
+    },
+    {
+        "date": "2026-05-14",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.73999
+    },
+    {
+        "date": "2026-05-15",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85695
+    },
+    {
+        "date": "2026-05-15",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.7451
+    },
+    {
+        "date": "2026-05-16",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85733
+    },
+    {
+        "date": "2026-05-16",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.7457
+    },
+    {
+        "date": "2026-05-17",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85775
+    },
+    {
+        "date": "2026-05-17",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74631
+    },
+    {
+        "date": "2026-05-18",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85878
+    },
+    {
+        "date": "2026-05-18",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74783
+    },
+    {
+        "date": "2026-05-19",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85955
+    },
+    {
+        "date": "2026-05-19",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74617
+    },
+    {
+        "date": "2026-05-20",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.86087
+    },
+    {
+        "date": "2026-05-20",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74579
+    },
+    {
+        "date": "2026-05-21",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.86102
+    },
+    {
+        "date": "2026-05-21",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.745
+    },
+    {
+        "date": "2026-05-22",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.86041
+    },
+    {
+        "date": "2026-05-22",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74425
+    },
+    {
+        "date": "2026-05-23",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.8605
+    },
+    {
+        "date": "2026-05-23",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74429
+    },
+    {
+        "date": "2026-05-24",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.86056
+    },
+    {
+        "date": "2026-05-24",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74429
+    },
+    {
+        "date": "2026-05-25",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85947
+    },
+    {
+        "date": "2026-05-25",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74264
+    },
+    {
+        "date": "2026-05-26",
+        "base": "USD",
+        "quote": "EUR",
+        "rate": 0.85838
+    },
+    {
+        "date": "2026-05-26",
+        "base": "USD",
+        "quote": "GBP",
+        "rate": 0.74173
+    }
+]
