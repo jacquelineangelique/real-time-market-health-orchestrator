@@ -28,8 +28,6 @@ See:
 
 ### Screenshots Folder
 
-Add:
-
 ```text
 docs/screenshots/market-summary-dashboard.png
 docs/screenshots/volatility-risk-monitoring.png
