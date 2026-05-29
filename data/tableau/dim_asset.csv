@@ -1,0 +1,4 @@
+asset_key,asset_code,asset_name,asset_type,base_currency,quote_currency
+1,BTC,Bitcoin,crypto,BTC,USD
+2,EUR,Euro,fiat,USD,EUR
+3,GBP,British Pound,fiat,USD,GBP
