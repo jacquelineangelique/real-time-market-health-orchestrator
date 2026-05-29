@@ -35,7 +35,7 @@ docs/screenshots/volatility-risk-monitoring.png
 
 [docs/screenshots/market-summary-dashboard.png](docs/screenshots/market-summary-dashboard.png)
 
-![market-summary-dashboard.png](https://github.com/jacquelineangelique/real-time-market-health-orchestrator/blob/chore-submission-polish/docs/screenshots/market-summary-dashboard.png)
+![market-summary-dashboard.png](docs/screenshots/market-summary-dashboard.png)
 
 [docs/screenshots/volatility-risk-monitoring.png](docs/screenshots/volatility-risk-monitoring.png)
 
