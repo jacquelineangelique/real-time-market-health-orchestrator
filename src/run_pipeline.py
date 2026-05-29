@@ -82,11 +82,11 @@ def run_pipeline():
 
         logging.info("Transformation workflow completed.")
         print("Transformation workflow completed.")
-        
+
         # -------------------------------------------------
         # Step 3: Build Star Schema
         # -------------------------------------------------
-        
+
         logging.info("Starting star schema workflow.")
         print("Starting star schema workflow...")
 
