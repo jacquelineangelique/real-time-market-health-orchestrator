@@ -264,9 +264,19 @@ data/tableau/
 
 # Star Schema Design
 
-## Fact Table
+![Star Schema Design](docs/assets/table-star-schema-tableau.png)
 
-### fact_market_rates.csv
+```text
+              dim_asset
+                   |
+                   |
+dim_date ---- fact_market_rates ---- dim_source
+```
+
+                    
+### Fact Table
+
+`fact_market_rates.csv`
 
 Central analytical table containing:
 
@@ -289,9 +299,9 @@ One record per asset per day
 
 ---
 
-## Date Dimension
+### Date Dimension
 
-### dim_date.csv
+`dim_date.csv`
 
 Contains:
 
@@ -303,15 +313,17 @@ Contains:
 * week_start_date
 * day_sequence
 
-Purpose:
+Purpose: 
 
+```text
 Supports time-series analysis and Tableau date filtering.
+```
 
 ---
 
-## Asset Dimension
+### Asset Dimension
 
-### dim_asset.csv
+`dim_asset.csv`
 
 Contains:
 
@@ -331,13 +343,15 @@ GBP
 
 Purpose:
 
+```text
 Provides descriptive metadata used for filtering and dashboard analysis.
+```
 
 ---
 
-## Source Dimension
+### Source Dimension
 
-### dim_source.csv
+`dim_source.csv`
 
 Contains:
 
@@ -346,8 +360,9 @@ Contains:
 * source_url
 
 Purpose:
-
+```text
 Maintains source system traceability and data lineage.
+```
 
 ---
 
@@ -389,8 +404,6 @@ Example:
 
 ```env
 COINGECKO_API_KEY=YOUR_API_KEY
-
-ENVIRONMENT=dev
 ```
 
 Notes:
