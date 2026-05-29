@@ -1,4 +1,49 @@
 # Real-Time Market Health Orchestrator
+## Project Deliverables
+
+### GitHub Repository
+
+Contains:
+
+- API extraction code
+- ETL transformation workflows
+- Star schema generation
+- Pipeline orchestration
+- Documentation
+
+### Tableau Dashboard
+
+Tableau Public:
+
+[The Real-Time Market Health Orchestrator](https://us-east-1.online.tableau.com/t/jacqueline-504e78d38c/views/TheReal-TimeMarketHealthOrchestrator/Dashboard1)
+
+### Dashboard Screenshots
+
+See:
+
+[docs/dashboard_screenshots.md](docs/dashboard_screenshots.md)
+
+
+---
+
+### Screenshots Folder
+
+Add:
+
+```text
+docs/screenshots/market-summary-dashboard.png
+docs/screenshots/volatility-risk-monitoring.png
+```
+
+[docs/screenshots/market-summary-dashboard.png](docs/screenshots/market-summary-dashboard.png)
+
+![market-summary-dashboard.png](https://github.com/jacquelineangelique/real-time-market-health-orchestrator/blob/chore-submission-polish/docs/screenshots/market-summary-dashboard.png)
+
+[docs/screenshots/volatility-risk-monitoring.png](docs/screenshots/volatility-risk-monitoring.png)
+
+![volatility-risk-monitoring.png](docs/screenshots/volatility-risk-monitoring.png)
+
+
 
 ## Business Problem
 
