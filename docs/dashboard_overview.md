@@ -168,7 +168,7 @@ The dashboard helps answer:
 
 ## Dashboard Screenshot
 
-![Market Health Overview Dashboard](docs/screenshots/market-health-overview-dashboard.pdf)
+![Market Health Overview Dashboard](screenshots/market-health-overview-dashboard.pdf)
 
 ---
 
