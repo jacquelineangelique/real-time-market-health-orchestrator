@@ -18,10 +18,10 @@ Key Features:
 Screenshot:
 
 ```text
-docs/screenshots/market-health-overview-dashboard.pdf
+screenshots/market-health-overview-dashboard.pdf
 ```
 
-![Market Health Overview](docs/screenshots/market-summary-dashboard.png)
+![Market Health Overview](screenshots/market-summary-dashboard.png)
 
 
 ---
@@ -43,7 +43,7 @@ Key Features:
 Screenshot:
 
 ```text
-docs/screenshots/volatility-and-risk-monitoring.pdf
+screenshots/volatility-and-risk-monitoring.pdf
 ```
-![Volatility & Risk Monitor](docs/screenshots/volatility-risk-monitoring.png)
+![Volatility & Risk Monitor](screenshots/volatility-risk-monitoring.png)
 
