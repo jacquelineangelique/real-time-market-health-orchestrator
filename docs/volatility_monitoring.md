@@ -118,4 +118,4 @@ This enables meaningful comparisons between assets with significantly different 
 
 ## Screenshot
 
-![Volatility Dashboard](docs/screenshots/volatility-and-risk-monitoring.pdf)
+![Volatility Dashboard](screenshots/volatility-and-risk-monitoring.pdf)
